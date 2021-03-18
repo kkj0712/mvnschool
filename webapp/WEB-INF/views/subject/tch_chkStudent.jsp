@@ -55,7 +55,7 @@
 		</c:forEach>
 		
 		<c:if test="${pu.endPage<pu.totPage}"> <!-- 다음 -->
-			<a href="javascript:getData(${pu.endPage+1}")>[다음]</a>
+			<a href="javascript:getData(${pu.endPage+1})">[다음]</a>
 		</c:if>
 	</div>
 </div>
