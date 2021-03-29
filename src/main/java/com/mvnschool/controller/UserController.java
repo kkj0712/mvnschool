@@ -1,13 +1,11 @@
 package com.mvnschool.controller;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.json.JSONArray;
@@ -22,10 +20,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.mvnschool.repository.UserDAO;
-import com.mvnschool.vo.Attend;
 import com.mvnschool.vo.PageUtil;
 import com.mvnschool.vo.SendEmail;
-import com.mvnschool.vo.Subject;
 import com.mvnschool.vo.User;
 
 @Controller

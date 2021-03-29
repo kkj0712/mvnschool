@@ -14,7 +14,6 @@ import java.util.Map;
 import org.springframework.stereotype.Repository;
 
 import com.mvnschool.vo.Attend;
-import com.mvnschool.vo.Subject;
 
 @Repository
 public class AttendDAO {

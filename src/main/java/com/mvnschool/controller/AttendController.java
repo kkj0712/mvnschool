@@ -1,10 +1,6 @@
 package com.mvnschool.controller;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -22,7 +18,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.mvnschool.repository.AttendDAO;
 import com.mvnschool.vo.Attend;
 import com.mvnschool.vo.PageUtil;
-import com.mvnschool.vo.Subject;
 
 @Controller
 public class AttendController {
